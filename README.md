@@ -24,7 +24,7 @@
 
 ## 调用
 ```js
-parseTree(list, function(list) {
-  console.log(list);
+parseTree(list, (treeList) => {
+  console.log(treeList);
 });
 ```
